@@ -73,6 +73,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/circleImageView2"
         app:srcCompat="@drawable/addi" />
+    
+     <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50"
+        android:layout_height="50"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/add"
+        tools:layout_editor_absoluteX="180dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
